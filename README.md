@@ -12,5 +12,4 @@
 <p>5. Ask for help</p>
 <p>6. Leave comments</p>
 <p>7. Vote for all the posts including comments</p>
-<p>8. Demonstrates the about page</p>
 <p>I believe that once the pandemic is over, the number of travelers would be even more than before.</p>
