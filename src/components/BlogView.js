@@ -18,6 +18,7 @@ export class BlogView extends Component {
       comments: [new Comment("student 1", "good")],
       count: 0,
     };
+    this.onCreateComment = this.onCreateComment.bind(this);
   }
   /**
    * Create new comment of the Blog.
@@ -29,7 +30,6 @@ export class BlogView extends Component {
       comments: [...this.state.comments, new Comment(author, content)],
     });
   }
-
   render() {
     return (
       <div className="col-4">
