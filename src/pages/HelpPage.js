@@ -15,10 +15,7 @@ export default class HelpPage extends Component {
 	}
 	onCreateHelp(title, author, description) {
 		this.setState({
-			blogs: [...this.state.blogs],
-			recommendations: [...this.state.recommendations],
 			helps: [...this.state.helps, new Help(title, author, description)],
-			fellows: [...this.state.fellows],
 		});
 	}
 	render() {
